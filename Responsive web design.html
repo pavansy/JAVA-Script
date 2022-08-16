@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive web Design</title>
+    <style>
+      header {
+        display: grid;
+        padding: 2%;
+        background-color: #343a40 !important;
+        grid-template-columns: 60% 40%;
+        border-bottom: #e8491d 4px solid;
+      }
+      footer {
+        display: grid;
+        padding: 2%;
+        background-color: #343a40;
+        grid-template-columns: 70% 30%;
+      }
+      header *,
+      footer {
+        text-decoration: none;
+        color: #fff;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header nav ul {
+        display: flex;
+        
+      }
+      .main {
+        padding: 10%;
+        text-align: center;
+        background-image: url(./showcase.jpg);
+      }
+      h1,
+      p {
+        color: #fff;
+        box-sizing: border-box;
+        padding: 2%;
+      }
+      .main-div {
+        margin-top: 15px;
+        display: flex;
+        text-align: center;
+      }
+      .para {
+        color: black;
+        text-align: center;
+      }
+      #p1 {
+        text-align: center;
+      }
+      input {
+        padding: 10px;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section style="font-size: 25px">
+        <span style="color: red; padding-left: 50px">Acme</span> Web Design
+      </section>
+      <nav>
+        <ul type="none">
+          <li style="flex: 1">
+            <a href="#"><span style="color: red">HOME</span> </a>
+          </li>
+          <li style="flex: 1"><a href="#">ABOUT</a></li>
+          <li style="flex: 1"><a href="#; ">SERVICES</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 style="font-size: 50px">Affordable Profession Web Design</h1>
+      <p style="font-size: 20px">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae deserunt
+        animi provident odio culpa ipsum,<br />
+        beatae nam quidem quis temporibus.
+      </p>
+    </main>
+
+    <footer>
+      <section style="font-size: 25px">Subscrible To Our Newsletter</section>
+      <nav>
+        <input type="text" placeholder="Enter Email.." />
+        <input type="button" value="Subscribe" style="background-color: red" />
+      </nav>
+    </footer>
+    <div class="main-div">
+      <div class=" " style="flex: 1">
+        <img src="logo_html.png" alt="no image" />
+        <h3>HTML5 Markup</h3>
+        <p class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          exercitationem maiores ad magnam labore dolores voluptas fugit
+          corporis possimus, officia sapiente
+        </p>
+      </div>
+      <div style="flex: 1">
+        <img src="logo_css.png" alt="no image" />
+        <h3>CSS3 Styling</h3>
+        <p class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          exercitationem maiores ad magnam labore dolores voluptas fugit
+          corporis possimus, officia sapiente
+        </p>
+      </div>
+      <div style="flex: 1">
+        <img src="logo_brush.png" alt="no image" />
+        <h3>Graphic Design</h3>
+        <p class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          exercitationem maiores ad magnam labore dolores voluptas fugit
+          corporis possimus, officia sapiente
+        </p>
+      </div>
+    </div>
+    <div>
+      <p style="background-color: #e8491d" id="p1">
+        Acme Web Design, Copyright &copy; 2020
+      </p>
+    </div>
+  </body>
+</html>
